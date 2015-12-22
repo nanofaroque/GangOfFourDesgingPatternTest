@@ -1,5 +1,6 @@
 Now if everydatabase has their own version like light, readonly,profession
 
+
 light--> it might be used for internal use only
 readonly-->it will be used for only readonly purpose
 profession--> user facing big database 
