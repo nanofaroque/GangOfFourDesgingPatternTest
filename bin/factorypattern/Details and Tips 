@@ -1,0 +1,3 @@
+Factory allows the consumer to create new objects without having to know the details 
+of how they're created, or what their dependencies are - they only have to give the 
+information they actually want.

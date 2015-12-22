@@ -1,0 +1,22 @@
+Problem statement: 
+
+
+
+*open for extension but close for modification*
+
+The Decorator Pattern is used for adding additional functionality to a particular 
+object as opposed to a class of objects. It is easy to add functionality to an entire 
+class of objects by sub-classing an object, but it is impossible to extend a single object 
+this way. With the Decorator Pattern, you can add functionality to a single object and 
+leave others like it unmodified
+
+
+Decorator pattern helps to add new functionalities to an object dynamically 
+
+1. Create a coffeebuzz application. You can sell different types of coffee with different 
+   ingradients. Based on the gradients prices should be changed 
+   
+2. How about this: write a decorator that converts all uppercase 
+characters to lowercase in the input stream. In other words, if we read in “I know the 
+Decorator Pattern therefore I RULE!” then your decorator converts this to “i know the 
+decorator pattern therefore i rule!”
