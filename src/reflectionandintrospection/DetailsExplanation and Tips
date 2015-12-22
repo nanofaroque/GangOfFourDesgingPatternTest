@@ -1,0 +1,15 @@
+Reflection can be used for observing and modifying program execution at runtime.
+ A reflection-oriented program component can monitor the execution of an enclosure 
+ of code and can modify itself according to a desired goal related to that enclosure. 
+ This is typically accomplished by dynamically assigning program code at runtime.
+
+In object oriented programming languages such as Java, reflection allows inspection 
+of classes, interfaces, fields and methods at runtime without knowing the names of 
+the interfaces, fields, methods at compile time. It also allows instantiation of 
+new objects and invocation of methods.
+
+Reflection can also be used to adapt a given program to different situations dynamically. 
+For example, consider an application that uses two different classes X and Y interchangeably
+ to perform similar operations. Without reflection-oriented programming, the application might 
+ be hard-coded to call method names of class X and class Y. However, using the reflection-oriented 
+ programming paradigm, the application could be designed and written to utilize reflection in order to invoke methods in classes X and Y without hard-coding method names. Reflection-oriented programming almost always requires additional knowledge, framework, relational mapping, and object relevance in order to take advantage of more generic code execution.
