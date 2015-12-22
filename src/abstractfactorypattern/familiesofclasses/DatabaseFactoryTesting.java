@@ -1,4 +1,4 @@
-package abstractfactorypattern;
+package abstractfactorypattern.familiesofclasses;
 
 public class DatabaseFactoryTesting {
 
