@@ -1,0 +1,28 @@
+Prototype pattern is one of the Creational Design pattern, so it provides
+ a mechanism of object creation. Prototype pattern is used when the Object 
+ creation is a costly affair and requires a lot of time and resources and
+  you have a similar object already existing. So this pattern provides a 
+  mechanism to copy the original object to a new object and then modify it 
+  according to our needs. This pattern uses java cloning to copy the object.
+
+It would be easy to understand this pattern with an example, suppose we have 
+an Object that loads data from database. Now we need to modify this data in 
+our program multiple times, so its not a good idea to create the Object using 
+new keyword and load all the data again from database. So the better approach 
+is to clone the existing object into a new object and then do the data manipulation.
+
+****The idea of prototype pattern is having a blueprint / template from which you can 
+spawn your instance. It's not merely to "avoid using new in Java"
+
+// Student class implements Clonable
+Student rookieStudentPrototype = new Student();
+rookieStudentPrototype.setStatus("Rookie");
+rookieStudentPrototype.setYear(1);
+
+// By using prototype pattern here we don't need to re-set status and
+// year, only the name. Status and year already copied by clone
+Student tom = rookieStudentPrototype.clone();
+tom.setName("Tom");
+
+Student sarah = rookieStudentPrototype.clone();
+sarah.setName("Sarah");
