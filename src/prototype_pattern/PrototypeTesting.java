@@ -20,6 +20,7 @@ public class PrototypeTesting {
 		emp1List.add("Faroque");
 		System.out.println("emp1: "+emp1List);
 		
+		
 		List<String> emp2List=emp2.getEmpList();
 		emp2List.remove("1");
 		System.out.println("emp2: "+emp2List);
