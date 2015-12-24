@@ -2,3 +2,9 @@ In Template pattern, an abstract class exposes defined way(s)/template(s) to
 execute its methods. Its subclasses can override the method implementation as 
 per need but the invocation is to be in the same way as defined by an abstract 
 class. This pattern comes under behavior pattern category.
+
+
+***************************************************************
+So in short you can say,In template method pattern,there is template method which 
+defines set of steps and implementation of steps can be deferred to subclasses.
+Thus template method defines algorithm but exact steps can be defined in subclasses.
