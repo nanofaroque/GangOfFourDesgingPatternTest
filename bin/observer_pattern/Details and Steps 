@@ -13,3 +13,14 @@ and explicit deregistration, as in the dispose pattern, because the subject
 holds strong references to the observers, keeping them alive. This can be 
 prevented by the subject holding weak references to the observers.
 
+
+If we have requirement that if particular object change its state and on depending upon
+This changes some or group of objects automatically change their state we need to implement 
+observer pattern it will reduce coupling between objects.
+In real world if try to find example see when we subscribe for New Phone 
+connection whenever customer is registered with that company all other 
+departments are notified accordingly and then depending upon the state the do their jobs like 
+do the verification of their address then if customer state is verified then dispatch the welcome kit etc.
+
+
+
