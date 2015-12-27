@@ -3,5 +3,7 @@ actually does that action.
 RemoteControl--> Requester
 VendorClass--> Object to handle the request
 
-**************************************************       
+**************************************************    
+Examples in java: 
+            Comparotor--> it is an interface with a single method    
                                                                                                                                                                                                                                                                                           
