@@ -1,0 +1,7 @@
+Command pattern helps us to decouple the requester of an action from the object 
+actually does that action.    
+RemoteControl--> Requester
+VendorClass--> Object to handle the request
+
+**************************************************       
+                                                                                                                                                                                                                                                                                          
