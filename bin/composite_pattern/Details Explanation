@@ -1,0 +1,31 @@
+The composite pattern is a structural design pattern. In the composite pattern, a tree 
+structure exists where identical operations can be performed on leaves and nodes. A node 
+in a tree is a class that can have children. A node class is a 'composite' class. A leaf 
+in a tree is a 'primitive' class that does not have children. The children of a composite 
+can be leaves or other composites.
+
+The leaf class and the composite class share a common 'component' interface that defines 
+the common operations that can be performed on leaves and composites. When an operation on
+ a composite is performed, this operation is performed on all children of the composite, 
+ whether they are leaves or composites. Thus, the composite pattern can be used to perform 
+ common operations on the objects that compose a tree.
+
+The Gang of Four description of the composite pattern defines a client's interaction 
+with the tree struture via a Component interface, where this interface includes the 
+common operations on the composite and leaf classes, and the add/remove/get operations 
+on the composites of the tree. This seems slightly awkward since a leaf does not implement 
+the add/remove/get operations. In my opinion, in JavaSW it makes more sense to define the 
+common leaf/composite operations on a Component interface, but to put the add/remove/get 
+composite operations in a separate interface or to simply implement them in the composite 
+class.
+
+
+******************Definition***********************
+
+Composite pattern is used where we need to treat a group of objects in similar way as a 
+single object. Composite pattern composes objects in term of a tree structure to represent 
+part as well as whole hierarchy. This type of design pattern comes under structural 
+pattern as this pattern creates a tree structure of group of objects.
+
+This pattern creates a class that contains group of its own objects. This class provides 
+ways to modify its group of same objects.
