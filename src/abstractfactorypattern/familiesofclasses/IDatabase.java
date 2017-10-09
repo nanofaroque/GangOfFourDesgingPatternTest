@@ -1,6 +1,6 @@
 package abstractfactorypattern.familiesofclasses;
 
 public interface IDatabase {
-	void create();
+	void create(String dbName);
 
 }

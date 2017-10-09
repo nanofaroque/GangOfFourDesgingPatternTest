@@ -1,12 +1,12 @@
 package abstractfactorypattern.familiesofclasses;
 
-import abstractfactorypattern.IDatabase;
 
 public class OracleDatabaseProfessional implements  abstractfactorypattern.familiesofclasses.IDatabase {
 
 	@Override
-	public void create() {
+	public void create(String dbName) {
 		// TODO Auto-generated method stub
+		System.out.println(dbName);
 
 	}
 

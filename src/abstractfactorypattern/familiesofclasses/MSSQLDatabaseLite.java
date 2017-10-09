@@ -1,12 +1,12 @@
 package abstractfactorypattern.familiesofclasses;
 
-import abstractfactorypattern.IDatabase;
 
 public class MSSQLDatabaseLite implements IDatabase {
 
 	@Override
-	public void create() {
-		
+	public void create(String dbName) {
+		System.out.println(dbName);
+
 
 	}
 

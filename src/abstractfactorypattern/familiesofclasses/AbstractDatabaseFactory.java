@@ -4,6 +4,7 @@ public abstract class AbstractDatabaseFactory {
 	//creating abstract database factory
 	//no static method because child will create their own database
 	abstract IDatabase getDatabaseLite();
+	
 	abstract IDatabase getDatabaseProfessional();
 
 	

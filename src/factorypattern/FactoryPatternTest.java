@@ -10,8 +10,6 @@ public class FactoryPatternTest {
 		
 		ILogger dbLogger = LoggerFactory.createLogger(db);
 		dbLogger.createLog("I am writting to db...");
-		
-
 	}
 
 }
