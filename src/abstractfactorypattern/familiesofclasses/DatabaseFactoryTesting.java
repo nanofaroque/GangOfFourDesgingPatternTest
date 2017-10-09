@@ -1,5 +1,7 @@
 package abstractfactorypattern.familiesofclasses;
-
+/**
+ * http://coding-geek.com/design-pattern-factory-patterns/
+ * */
 public class DatabaseFactoryTesting {
 
 	public static void main(String[] args) {
@@ -12,7 +14,5 @@ public class DatabaseFactoryTesting {
 		
 		mSSQLDBFactory.getDatabaseLite().create("MSSQL Base Lite");
 		mSSQLDBFactory.getDatabaseProfessional().create("MSSQL Professionals");
-		
 	}
-
 }

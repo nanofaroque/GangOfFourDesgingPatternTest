@@ -1,5 +1,7 @@
 package factorypattern;
-
+/**
+ * http://coding-geek.com/design-pattern-factory-patterns/
+ * */
 public class FactoryPatternTest {
 	public static final int file = 1;
 	public static final int db = 2;
